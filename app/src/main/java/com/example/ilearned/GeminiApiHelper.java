@@ -24,7 +24,7 @@ import okhttp3.Response;
 public class GeminiApiHelper {
 
     private static final String TAG = "GeminiApiHelper";
-    private static final String API_KEY = "AIzaSyD3aNhQ6Z6frVKEpsJlI1rrZPUGQjtWE0A";
+    private static final String API_KEY = "HIDDEN API KEY";
     private static final String MODEL = "gemini-flash-latest";
     private static final String API_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/"
