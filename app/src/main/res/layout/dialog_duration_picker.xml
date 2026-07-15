@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    dialog_duration_picker.xml
+    Place in: res/layout/
+
+    Used by both TimerFragment (focus duration) and BreakFragment (break duration).
+    Shows two side-by-side NumberPickers: one for hours, one for minutes.
+    Title text is set programmatically so the same layout serves both contexts.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/surface"
+    android:padding="24dp">
+
+    <!-- Dialog title — set via titleView.setText() in Java -->
+    <TextView
+        android:id="@+id/durationPickerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Duration"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Accent divider line -->
+    <View
+        android:layout_width="36dp"
+        android:layout_height="3dp"
+        android:background="@color/accent"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Two pickers side by side -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Hours column -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <NumberPicker
+                android:id="@+id/pickerHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOURS"
+                android:textSize="10sp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.12"
+                android:textColor="@color/accentMuted"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <!-- Colon separator -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/accent"
+            android:paddingBottom="20dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+
+        <!-- Minutes column -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <NumberPicker
+                android:id="@+id/pickerMinutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MINUTES"
+                android:textSize="10sp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.12"
+                android:textColor="@color/accentMuted"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Helper text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap the numbers to scroll or type a value"
+        android:textSize="11sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/accentMuted"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

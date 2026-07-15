@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Earthy Harmony palette -->
+    <color name="background">#CBDED3</color>
+    <color name="surface">#E2DFD2</color>
+    <color name="accent">#3B6255</color>
+    <color name="accentMuted">#8BA49A</color>
+    <color name="accentTan">#D2C49E</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#1C2B26</color>
+    <color name="textSecondary">#5A7268</color>
+
+    <!-- UI -->
+    <color name="divider">#8BA49A</color>
+    <color name="drawerBackground">#E2DFD2</color>
+    <color name="drawerHeader">#3B6255</color>
+    <color name="buttonDisabled">#B0C4BB</color>
+    <!-- Chat bubbles -->
+    <color name="bubbleUser">#3B6255</color>
+    <color name="bubbleBot">#E2DFD2</color>
+
+    <!-- Quiz -->
+    <color name="quizCorrectGreen">#3B6255</color>
+    <color name="quizWrongRed">#B05C5C</color>
+    <color name="quizDoneGreen">#2D4F41</color>
+
+    <!-- Settings icon backgrounds -->
+    <color name="settingsIconBlue">#C8DED3</color>
+    <color name="settingsIconGreen">#C8DED0</color>
+    <color name="settingsIconGrey">#D5D2C8</color>
+
+    <!-- Legacy white -->
+    <color name="white">#FFFFFF</color>
+
+    <color name="priority_high_text">#B33A3A</color>
+    <color name="priority_medium_text">#2F6E70</color>
+    <color name="priority_low_text">#2E7D4F</color>
+</resources>

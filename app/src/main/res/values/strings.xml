@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">iLearned</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_mindful_study_space_is_ready">Your mindful study space is ready.</string>
+    <string name="good_morning">Good morning,</string>
+    <string name="start_quick_study_session">Start Quick Study Session</string>
+    <string name="to_do_list">To-Do List</string>
+    <string name="add_to_list">Add to List</string>
+    <string name="addtask">+</string>
+</resources>

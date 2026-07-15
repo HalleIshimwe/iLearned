@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode colour overrides for Earthy Harmony palette -->
+
+    <!-- Backgrounds flip to dark earthy tones -->
+    <color name="background">#1A2420</color>
+    <color name="surface">#243028</color>
+    <color name="drawerBackground">#1A2420</color>
+    <color name="drawerHeader">#2D4F41</color>
+
+    <!-- Accent stays recognisable but slightly lighter for dark backgrounds -->
+    <color name="accent">#6A9E8E</color>
+    <color name="accentMuted">#5A7A6E</color>
+    <color name="accentTan">#A89878</color>
+
+    <!-- Text flips: primary becomes near-white, secondary becomes light sage -->
+    <color name="textPrimary">#E2DFD2</color>
+    <color name="textSecondary">#8BA49A</color>
+
+    <!-- UI elements -->
+    <color name="divider">#2D4540</color>
+    <color name="buttonDisabled">#3A4F45</color>
+
+    <!-- Chat bubbles -->
+    <color name="bubbleUser">#2D4F41</color>
+    <color name="bubbleBot">#243028</color>
+
+    <!-- Quiz colours -->
+    <color name="quizCorrectGreen">#4A9070</color>
+    <color name="quizWrongRed">#8B3A3A</color>
+    <color name="quizDoneGreen">#2D4F41</color>
+
+    <!-- Settings icon backgrounds — darker tinted versions -->
+    <color name="settingsIconBlue">#1E3530</color>
+    <color name="settingsIconGreen">#1E3530</color>
+    <color name="settingsIconGrey">#2A302A</color>
+
+    <!-- Session active badge in drawer -->
+    <color name="sessionActiveBackground">#1E3530</color>
+    <color name="searchBarBackground">#1A2420</color>
+</resources>
